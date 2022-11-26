@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="888.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.coursework.controllers.MainWindowController">
+   <center>
+      <Pane prefHeight="532.0" prefWidth="754.0" focusTraversable="true" BorderPane.alignment="CENTER">
+
+<!--         <Text fx:id="textMatrix" layoutX="14.0" layoutY="27.0" wrappingWidth="730.0000152587891" />-->
+         <Label fx:id="textMatrix" layoutY="68.0" prefHeight="552.0" prefWidth="876.0" />
+         <Button layoutX="14.0" layoutY="14.0"  mnemonicParsing="false" onAction="#clickBack" prefHeight="34.0" prefWidth="71.0" text="Назад">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Button>
+      </Pane>
+   </center>
+</BorderPane>

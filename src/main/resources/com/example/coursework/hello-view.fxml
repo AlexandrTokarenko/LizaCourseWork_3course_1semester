@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="569.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.coursework.controllers.MenuController">
+   <center>
+      <Pane prefHeight="448.0" prefWidth="600.0" focusTraversable="true" BorderPane.alignment="CENTER">
+         <TextField fx:id="fieldLamb" layoutX="226.0" layoutY="53.0" promptText="10" />
+         <Label layoutX="153.0" layoutY="110.0" text="Середній час обробки заготовки на верстаті (год)">
+            <font>
+               <Font name="Times New Roman" size="14.0" />
+            </font>
+         </Label>
+         <TextField fx:id="fieldTcp" layoutX="226.0" layoutY="136.0" promptText="0,1" />
+         <Label layoutX="125.0" layoutY="182.0" text="Прибуток, який одержуємо при обробці однієї деталі (грн)">
+            <font>
+               <Font name="Times New Roman" size="14.0" />
+            </font>
+         </Label>
+         <TextField fx:id="fieldD" layoutX="226.0"  layoutY="212.0" promptText="10" />
+         <Label layoutX="180.0" layoutY="31.0" text="Інтенсивність потоку заготівок (зав/год)">
+            <font>
+               <Font name="Times New Roman" size="14.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" contentDisplay="CENTER" layoutX="106.0" layoutY="265.0" text="Витрати на обслуговування одного верстата за годину (грн./год.)">
+            <font>
+               <Font name="Times New Roman" size="14.0" />
+            </font>
+         </Label>
+         <TextField fx:id="fieldVv" layoutX="226.0" layoutY="288.0" promptText="10" />
+         <Label alignment="CENTER" contentDisplay="CENTER" layoutX="90.0" layoutY="339.0" text="Витрати на обслуговування одного накопичувача за годину (грн./год.)">
+            <font>
+               <Font name="Times New Roman" size="14.0" />
+            </font>
+         </Label>
+         <TextField fx:id="fieldVn" layoutX="226.0" layoutY="363.0" promptText="10" />
+         <Label alignment="CENTER" contentDisplay="CENTER" layoutX="198.0" layoutY="408.0" text="Стандартна ємність накопичувача">
+            <font>
+               <Font name="Times New Roman" size="14.0" />
+            </font>
+         </Label>
+         <TextField fx:id="fieldK" layoutX="226.0" layoutY="432.0" promptText="10" />
+         <Button layoutX="258.0" layoutY="503.0" mnemonicParsing="false" onAction="#calculate" text="Розрахувати" />
+         <Label fx:id="exception" alignment="BASELINE_CENTER" layoutX="216.0" layoutY="464.0" prefHeight="25.0" prefWidth="168.0" textFill="RED">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Label>
+      </Pane>
+   </center>
+</BorderPane>
